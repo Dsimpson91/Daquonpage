@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import github from './github2.svg';
 import resume from './resume.svg';
 import linkedin from './linkedin.svg';
@@ -6,10 +7,11 @@ import email from './email.svg';
 import pdf from './DaquonSimpsonResume.pdf';
 
 
+
 function Welcome() {
     return (
     <div>
-        <div>
+        <div> 
             <h1>Daquon Simpson</h1>
             <h2>Site down for maintenance</h2>
             <h2>Stay Connected</h2>
@@ -26,6 +28,9 @@ function Welcome() {
              <a href="mailto:Daquon_simpson@outlook.com" target="_blank"  rel="noreferrer">
                 <img src={email} alt="email"/>
              </a>
+            <Link to="/projects">
+              <img src={email} alt="email" />
+            </Link>
             </div>
         </div>
         
