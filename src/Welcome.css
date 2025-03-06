@@ -1,0 +1,15 @@
+.welcomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .welcomeText {
+    text-align: left;
+    max-width: 600px; /* Adjust as needed */
+  }
+
+.icon {
+    font-size: 1.5rem;
+  }

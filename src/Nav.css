@@ -1,0 +1,33 @@
+/* Nav.css */
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between h1 and ul */
+    align-items: center; /* Center items vertically */
+    padding: 1rem; /* Optional: Add some padding */
+  }
+  
+  nav h1 {
+    margin: 0; /* Remove default margin */
+    color: white; /* Optional: Change text color */
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 1rem; /* Add space between the links */
+  }
+  
+  nav a {
+    color: white; /* Optional: Change link color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+  }

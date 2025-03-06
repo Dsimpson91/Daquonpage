@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .footer a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
+  .footer .icon {
+    font-size: 1.5rem;
+  }
+  
+  .footer a:hover .icon {
+    color: #0073b1; /* Change color on hover */
+  }

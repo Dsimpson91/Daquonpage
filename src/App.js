@@ -8,18 +8,18 @@ import Contact from './Contact';
 function App() {
   return (
     <div className="App">
-      <main>
-          <BrowserRouter>       
-            <Switch>
-            <Route path="/" component={Welcome} />
+      
+        <BrowserRouter>
+          <Switch>
             <Route path="/skills" component={Skills} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
-            </Switch>
-          </BrowserRouter>
-        </main>
-      </div>
+            <Route path="/" component={Welcome} />
+          </Switch>
+        </BrowserRouter>
+      
+    </div>
   );
-} 
- 
+}
+
 export default App;
