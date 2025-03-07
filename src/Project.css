@@ -16,35 +16,6 @@
     }
   }
 
-  #ultomiris {
-    background-image: url('./ultomiris.png');
-    background-size: cover;
-  }
-
-  #agios {
-    background-image: url('./myagios.png');
-    background-size: cover;
-  }
-
-  #stellar {
-    background-image: url('./stellarclinicaltrials.png');
-    background-size: cover;
-  }
-
-  #elahere {
-    background-image: url('./elaherehcp.png');
-    background-size: cover;
-  }
-
-  #newsmile {
-    background-image: url('./newsmilelife.png');
-    background-size: cover;
-  }
-
-  #kickscrew {
-    background-image: url('./kickscrew.png');
-    background-size: cover;
-  }
 
   .projectPageTitle {
     text-align: left;
@@ -59,7 +30,7 @@
   }
 
   .textContainer {
-    display: none; /* Initially hide the textContainer */
+     /* Initially hide the textContainer */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -67,8 +38,9 @@
     margin-top: auto; /* Pushes the textContainer to the bottom */
     color: white;
     width: 100%;
-    height: 100%;
+    height: 20%;
     text-decoration: none;
+    background-color: black;
    
     
     
@@ -84,27 +56,4 @@
       padding-right: 20px;
       text-decoration: none;
     }
-  }
-
-
-  .project:hover .textContainer {
-    display: flex; /* Show the textContainer on hover */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)); /* Gradient background */
- }
-
-  .skillsContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 50px;
-
-  }
-
-  .skill {
-    font-size: 11px;
-    height: 30px;
-    width: 65px;
-    border-radius: 9px;
-    background-image: linear-gradient( 105.3deg,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% );
   }
