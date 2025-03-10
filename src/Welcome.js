@@ -10,7 +10,7 @@ function Welcome() {
     return (
    <div>   
     <div>
-        <div> 
+        <div>
           <div className='welcomeText'>
             <h1>Daquon Simpson</h1>
             <p>Hi there! I'm a Full Stack Developer with a diverse skill set and experience that spans across various industries, from healthcare marketing to e-commerce. With a passion for building user-centric, scalable applications, I specialize in both front-end and back-end development to create seamless and impactful digital experiences. Whether it's crafting responsive websites or optimizing complex systems, I'm committed to delivering high-quality solutions tailored to meet unique business needs. Let’s bring your ideas to life!</p>
